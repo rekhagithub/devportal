@@ -1,0 +1,38 @@
+.sidenav {
+    width: 19%;
+    position: absolute;
+    z-index: 1;
+    top: 80px;
+    left: 15px;
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 1.2vw;
+    color: #2196F3;
+    display: block;
+    margin-top:10px;
+  }
+  
+  .sidenav a:hover {
+    color: #064579;
+  }
+  
+  .main {
+    margin-left: 20%; /* Same width as the sidebar + left position in px */
+    font-size: 18px; 
+    padding: 0px 20px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18}
+  }
+
+  .title{
+    font-size: 125%;
+    font-weight: bold;
+  }

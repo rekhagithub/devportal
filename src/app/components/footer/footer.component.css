@@ -1,0 +1,207 @@
+.global_footer {
+    padding: 30px 0;
+    width: 100%;
+    clear: left;
+    background: #003087;
+    min-height: 255px; 
+  }
+  .global_footer .social-web-links {
+    width: 100%;
+    padding-bottom: 2%;
+    overflow: hidden;
+  }
+  .global_footer .social-web-links .container {
+    width: 780px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .global_footer .social-web-links .container ul {
+    display: table-row;
+    float: left;
+  }
+  .global_footer .social-web-links .container ul li {
+    margin: 0 24px;
+    display: inline;
+  }
+  .global_footer .social-web-links .container ul li a {
+    font-size: 0.875em;
+    padding: 0;
+    color: #ffffff;
+    font-family: 'SlatePro-Bk', sans-serif;
+  }
+  .global_footer .social-web-links .container ul li a:hover {
+    color: #b4c4ea;
+  }
+  .global_footer .social-web-links-icons {
+    padding: 0%;
+  }
+  .global_footer .social-web-links-icons ul {
+    display: table;
+    width: auto;
+    margin: 0 auto;
+  }
+  .global_footer .social-web-links-icons ul li {
+    display: inline;
+  }
+  .global_footer .social-web-links-icons ul li a {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+  }
+  .global_footer .social-web-links-icons ul li a:hover {
+    color: #b4c4ea;
+  }
+  .global_footer .social-web-links-icons ul li a i {
+    margin-right: 0;
+  }
+  .global_footer .farmers-footer-logo {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 1%;
+  }
+  .global_footer p {
+    font-size: 0.8125em;
+    text-align: center;
+    color: #b4c4ea;
+    margin: 0;
+  }
+  #fat-footer_2 {
+    min-height: 265px;
+    background: #fff;
+    overflow: hidden;
+  }
+  #fat-footer_2 .container {
+    max-width: 970px;
+  }
+  #fat-footer_2 .foot-note {
+    margin: 16px 0px 14px 0px;
+    padding: 0;
+    position: static;
+  }
+  #fat-footer_2 .foot-note p {
+    text-align: left;
+    color: #585858;
+    line-height: 116%;
+    margin-top: 3px;
+    font-family: 'SlatePro-Bk', sans-serif;
+    font-size: 0.8125em;
+  }
+  #fat-footer_2 .foot-note img {
+    margin-bottom: 6px;
+  }
+  #fat-footer_2 a {
+    font-family: 'SlatePro-Bk', sans-serif;
+    color: #0073cf;
+    text-decoration: underline;
+  }
+  #fat-footer_2 a:hover {
+    color: #0073cf;
+  }
+  /*Targeting below 992px resolution*/
+  @media screen and (max-width: 992px) {
+    .footer .container {
+      width: 90%;
+      padding-top: 25px;
+    }
+    .footer .container .list-section {
+      width: 30%;
+    }
+    .footer .container .list-section + .list-section {
+      width: 35%;
+    }
+    .footer h3 {
+      font-size: 1.125em;
+    }
+    .footer ul.list-two-column {
+      -webkit-column-count: 1;
+      -moz-column-count: 1;
+      column-count: 1;
+    }
+    .global_footer .social-web-links .container.social-web-links-list {
+      padding: 0px 15px;
+      max-width: 100%;
+    }
+    #fat-footer_2 .container {
+      width: 750px;
+    }
+  }
+  /*Targeting below 767px resolution*/
+  @media screen and (max-width: 767px) {
+    .footer {
+      min-height: 0px;
+      padding: 0;
+    }
+    .global_footer {
+      min-height: 400px;
+      padding: 30px 22px;
+    }
+    .global_footer .social-web-links .container {
+      padding: 0px 15px;
+    }
+    .global_footer .social-web-links .container ul {
+      float: left;
+      width: 100%;
+      column-count: 2;
+      column-gap: 0;
+      border: 0 solid #ffffff;
+      border-width: 0 0 1px 1px;
+      max-height: 166px;
+      padding-left:0px;
+    }
+    .global_footer .social-web-links .container ul li {
+      border: 0 solid #ffffff;
+      border-width: 1px 1px 0 0;
+      display: inline-table;
+      float: left;
+      font-size: 16px;
+      padding: 19px 10px;
+      width: 100%;
+      margin: 0;
+    }
+    .global_footer .social-web-links .container ul li a {
+      font-size: 1em;
+      line-height: 1;
+      float: left;
+    }
+    .global_footer .social-web-links-icons ul li a {
+      padding: 25px 39px;
+      font-size: 28px;
+    }
+    .global_footer .social-web-links-icons ul li a:hover {
+      color: #ffffff;
+    }
+    .global_footer .social-web-links-icons ul li a i {
+      margin-right: 0;
+    }
+    #fat-footer_2 .container {
+      width: 100%;
+    }
+    #fat-footer_2 .container .foot-note {
+      margin: 26px 0px 14px 0px;
+      padding: 0 31px;
+    }
+  }
+  /*Targeting below 479px resolution*/
+  @media screen and (max-width: 479px) {
+    .global_footer .social-web-links-icons ul li a {
+      padding: 20px;
+    }
+  }
+  
+  .global_footer .social-web-links-icons ul li a:focus,
+  .global_footer .social-web-links .container ul li a:focus,
+  .global_footer .farmers-footer-logo a:focus {
+    outline: 1px dashed #ffffff;
+  }
+  
+  .footer ul li a:focus,
+  #fat-footer_2 .foot-note p a:focus {
+    outline: 1px dashed #000000;
+  }
+  
+  .footer ul li a:focus,
+  .global_footer .social-web-links .container ul li a:focus,
+  #fat-footer_2 .foot-note p a:focus {
+    outline-offset: 2px;
+  }

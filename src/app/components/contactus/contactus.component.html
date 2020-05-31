@@ -1,0 +1,36 @@
+<div>
+  <h1 style="font-size: 45px; margin-top: 50px; text-align:center; color: #003087; font-family:'SlatePro-Bk !important', sans-serif">
+      
+      Contact Us / Provide Your Feedback
+  </h1>
+  <div class="bg-img">
+    <form action="/action_page.php" class="container">
+  
+  
+      <label for="eMail"><b>Your Name</b></label>
+      <input type ="text1" placeholder="Enter Your Name" name="name" required >
+
+      <label for="eMail"><b>Email</b></label>
+      <input type="text1" placeholder="Enter Email" name="eMail" required>
+     
+      <label for="eMail"><b>Subject</b></label> <br><br>
+      <div class="dropdown">
+      <select data-drupal-selector="edit-field-subject"  name="field_subject" class="form-select-required" required="required" aria-required="true">
+        <option value="_none">Select a value</option>
+        <option value="60">Feedback &amp; Improvements</option>
+        <option value="58">Bugs &amp; Fixes</option>
+        <option value="61">API Product Support</option>
+        <option value="62">User Access Questions</option>
+        <option value="63">Other</option>
+      </select>
+    </div>
+      
+      <label for="eMail"><b>Message</b></label>
+      <input type="Message" placeholder="Enter Your Message" name="message" required>
+  
+      <button type="submit" routerLink="/explore-api" style="background-color:#003087" onclick="alert('Your information is now being processed. \n\n You will be redirected to explore which APIs we have to offer.')"
+        class="btn"> Send Message</button>
+    </form>
+  </div>
+  <br><br>
+  </div>

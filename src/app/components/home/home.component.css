@@ -1,0 +1,104 @@
+/* Container holding the image and the text */
+.topcontainer {
+  background-image: url("/assets/img/renters-insurance-landing-3000x1070-V1-111.jfif");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+}
+.container {
+  top: 20px;
+  position: relative;
+  bottom: 30px;
+
+}
+  
+/* Bottom right text */
+.login-text-block {
+  position: absolute;
+  bottom: 2px;
+  right: 20px;
+  background-color: white;
+  color:#2E3A88;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Text for computer */
+  .computer-text-block {
+    position: absolute;
+    top: 20%;
+    bottom: 20%;
+    right:55%;
+    color: #2E3A88;
+  }
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 350px; /* Should be removed. Only for demonstration */
+  position: relative;
+}
+.column2{
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 400px; /* Should be removed. Only for demonstration */
+  position: relative;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  position: relative;
+}
+.horizontal-line{
+  border-top: 4px solid darkblue;
+  width:40%;
+  float: left;
+}
+
+.text1{
+  font-size:20px;
+}
+.text1:hover{text-decoration: underline;
+  color: #566be6;
+  
+}
+.text2{
+  font-size:20px;
+}
+.text2:hover{
+  text-decoration: underline;
+  color: #566be6;
+  
+}
+.description{
+  font-size:16px;
+}
+
+.explorebuttoncol{
+  float: left;
+  width: 30%;
+  margin: 15px;
+  height: 300px;
+}
+.imagerow{
+  height: 100px;
+}
+.imagecol{
+  float:left;
+  width: 15%;
+  padding: 10px;
+  position: relative;
+  height: 100px;
+}
+
+.explorebuttonrow{
+  margin-left: 10%;
+}

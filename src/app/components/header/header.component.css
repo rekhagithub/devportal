@@ -1,0 +1,114 @@
+
+.nav-item.main-nav-item.logo-item {
+    padding: 12px 0 0;
+    margin-top: 0;
+    margin-bottom:5px;
+  }
+.user-menu{
+    display:flex;
+}
+
+.custom-icon{
+    padding:0px!important;
+}
+.nav-item.main-nav-item a{
+    text-decoration:none;
+    font-size:16px;
+    color:#003087;
+    padding:3px 0;
+    min-height:32px;
+    font-family:'SlatePro-Medium', sans-serif;
+    font-weight:400;
+    line-height:1.5;
+    transition: width 0.8s ease,font-size 0.8s ease,padding 0.8s ease;
+    -webkit-transition: width 0.2s ease,font-size 0.2s ease,padding 0.2s ease;
+    -moz-transition: width 0.8s ease,font-size 0.8s ease,padding 0.8s ease;
+    -ms-transition: width 0.2s ease,font-size 0.2s ease,padding 0.2s ease;
+}
+@media screen and (max-width: 991px) {
+    .navbar {
+        background:#003087;
+        
+    }
+    .navbar .desktop{
+        display: none
+    }
+    .nav-item.main-nav-item a{
+        color:white;
+        margin-right:5px;
+    }
+    .navbar ul{
+        flex-direction: row;
+    }
+    .logo-nav {
+        width: 103px;
+        height: auto;
+      }
+      .nav-item.main-nav-item a{
+        font-family:'SlatePro-Bk', sans-serif;
+        font-size:16px;
+      }
+      .custom-icon{
+          margin-left:20px;
+      }
+}
+@media screen and (min-width: 991px) {
+    .navbar {
+        background:#f8f9fa    }
+    .navbar .tab_mobile{
+            display: none
+    }
+    .nav-item.main-nav-item a{
+        color:#003087;
+        margin-right:40px;
+    }
+    
+    .headerwrapper{
+        background: #ffffff!important;
+    }
+    .logo-nav {
+        width: 103px;
+        margin: 0 40px;
+        height: auto;
+      }
+      .nav-item.main-nav-item.left-menu{
+        padding-top:15px;
+        margin-top:12px;
+        margin-left: 5px;
+        margin-right: auto;
+        text-align: center;
+        word-break: break-word;
+    }
+    .user-menu .nav-item.main-nav-item{
+        margin-left: 5px;
+        margin-right: auto;
+        text-align: center;
+        word-break: break-word;
+        
+    }
+    .navbar{
+        -webkit-box-shadow: 0 1px 4px grey;
+        padding:0 50px;
+        
+    }
+}
+.nav-link.dev-nav:hover {
+    border-bottom:2px solid #e8381e;
+}
+.desktop-menu-item-link:hover {
+    border-bottom:2px solid #e8381e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

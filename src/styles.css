@@ -1,0 +1,22 @@
+
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@font-face {
+  font-family: 'SlatePro-Bk';
+  src: url('assets/fonts/SlatePro-Bk.eot?#iefix');
+  src: url('assets/fonts/SlatePro-Bk.eot?#iefix') format('eot'),
+    url('#{assets/fonts/SlatePro-Bk.woff') format('woff'),
+    url('#{assets/fonts/SlatePro-Bk.ttf') format('truetype'),
+    url('#{assets/fonts/SlatePro-Bk.svg#SlatePro-Bk') format('svg');
+}
+
+@font-face {
+  font-family: 'SlatePro-Medium';
+  src: url('assets/fonts/SlatePro-Medium.eot?#iefix');
+  src: url('assets/fonts/SlatePro-Medium.eot?#iefix') format('eot'),
+    url('assets/fonts/SlatePro-Medium.woff') format('woff'),
+    url('assets/fonts/SlatePro-Medium.ttf') format('truetype'),
+    url('assets/fonts/SlatePro-Medium.svg#SlatePro-Medium') format('svg');
+}
+
+

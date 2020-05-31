@@ -1,0 +1,53 @@
+body, html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Add styles to the form container */
+  .container {
+    font-size:14px;
+    font-family:'SlatePro-Small', sans-serif;
+    margin: center;
+    font-weight:400;
+    max-width: 50%;
+    padding: 16px;
+    background-color: white;
+  }
+  /* Full-width input fields */
+  .form-select-required {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    background: white;
+    border: 1.5px solid black;
+  }
+  input[type=text1], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    background: white;
+    border: 1.5px solid black;
+  }
+  input[type=message], input[type=password] {
+    width: 100%;
+    padding: 45px;
+    margin: 5px 0 22px 0;    
+    background: white;
+    border: 1.5px solid black;
+  }
+  /* Set a style for the submit button */
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  .btn:hover {
+    opacity: 1;
+  }

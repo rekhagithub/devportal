@@ -1,0 +1,34 @@
+<nav class="navbar navbar-expand-lg navbar-light headerwrapper">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item main-nav-item logo-item">
+        <a class="navbar-brand" routerLink="/">
+          <img src="assets/img/farmers_ins_logo.svg" class="img-fluid desktop logo-nav" alt="farmers logo"/>
+          <img src="assets/img/farmers-mobile-logo.svg" class="img-fluid tab_mobile logo-nav" alt="farmers logo"/>
+        </a>
+      </li>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" (click)="isShown = !isShown" >
+        <span class="navbar-toggler-icon"></span>
+      </button>   
+      <div class="collapse navbar-collapse left-menu" [ngClass]="{ 'show': isShown }" id="navbarSupportedContent">     
+          <li class="nav-item main-nav-item">
+              <a class="nav-link dev-nav" routerLink="/explore-api" >Explore API</a>
+            </li>      
+            <li class="nav-item main-nav-item">
+                <a class="nav-link dev-nav" routerLink="/docs" >Getting Started</a>
+            </li> 
+            <li class="nav-item main-nav-item">
+              <a class="nav-link dev-nav" routerLink="/contact-us" >Contact Us</a>
+          </li>                  
+      </div>
+    </ul> 
+    <div class="user-menu">
+        <div class="nav-item main-nav-item hidden-xs hidden-sm desktop-menu-item">
+            <a href="/register" class="desktop-menu-item-link" id="register_link" >Register</a>
+        </div>
+        <div class="nav-item main-nav-item">
+          <a  class="nav-link dev-nav custom-icon" href="/login">
+            <i class="fa fa-user no-margin"></i>
+            Log in </a>
+        </div>                 
+    </div>
+  </nav>
