@@ -1,20 +1,21 @@
 .sidenav {
-  width: 15%;
-  position: relative;
+  width: 12%;
+  position: absolute;
   z-index: 1;
-  font-size: 10px;
-  left: 15px;
+  top: 80px;
+  left: 10px;
   overflow-x: hidden;
+  padding: 4px 0;
 }
 
 .sidenav p {
-  /*padding: 6px;*/
+  padding: 6px;
   text-decoration: none;
   font-size: 19px;
   color: #2196F3;
   display: block;
-  margin-top:5px;
-  margin-left: 10px;
+  margin-top:10px;
+  margin-left: 10%;
 }
 
 .sidenav a:hover {
@@ -22,13 +23,13 @@
 }
 
 .main {
-  margin-left: 60px; /* Same width as the sidebar + left position in px */
+  margin-left: 15%; /* Same width as the sidebar + left position in px */
   font-size: 18px; 
   padding: 0px 10px;
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 9px;}
+  .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18}
 }
 

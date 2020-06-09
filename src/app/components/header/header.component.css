@@ -92,12 +92,10 @@
         
     }
 }
-.nav-link.dev-nav:hover {
+a:hover {
     border-bottom:2px solid #e8381e;
 }
-.desktop-menu-item-link:hover {
-    border-bottom:2px solid #e8381e;
-}
+
 
 
 

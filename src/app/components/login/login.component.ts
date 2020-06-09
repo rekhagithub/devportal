@@ -17,13 +17,13 @@ export class LoginComponent {
     this.signIn.renderEl({
       el: '#widget-container'
     }, 
-    (res) => {
+    () => {
       /**
        * In this flow, the success handler will not be called because we redirect
        * to the Okta org for the authentication workflow.
        */
       console.log("hello");
-      res.session.setCookieAndRedirect('https://farmersinsurance.okta.com/home/farmersinsurance_mulesoftanypoint_1/0oa645p1rtcjk6SLN1t7/aln645ulbvt56NkTf1t7');
+      window.location.href='https://farmersinsurance.okta.com/home/farmersinsurance_mulesoftanypoint_1/0oa645p1rtcjk6SLN1t7/aln645ulbvt56NkTf1t7';
     },
     (err) => {
       throw err;

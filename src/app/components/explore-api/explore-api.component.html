@@ -1,12 +1,11 @@
 <div class="row">
   <div class="sidenav">
-    <p style="color: black; margin: 1px;">Categories:</p><hr> 
-    <p><label><input type="checkbox" > Agent</label></p><hr> 
-    <p><label><input type="checkbox" > Billing</label></p><hr>                
-    <p><label><input type="checkbox" > Claims</label></p><hr>  
-    <p><label><input type="checkbox" (click)="ToggleList('Quote')"> Quote </label></p><hr>   
-    <p><label><input type="checkbox" (click)="ToggleList('Policy')"> Policy </label></p><hr> 
-    <p><label><input type="checkbox" > Vehicle</label></p><hr>                  
+    <!-- <p><label><input type="checkbox" checked.bind="item.all" ng-model="all" (click)="allBox()" checked>ALL</label></p><hr>  -->
+    <p style="color: black; margin: 1px;">Categories:</p><hr>
+    <p><label><input type="checkbox" (click)="idCardBox()">Evidence of Insurance</label></p><hr> 
+    <p><label><input type="checkbox" (click)="rateBox()">Policy Sales (Coming)</label></p><hr>           
+           
+          
   </div>
   <br>
   <div class="main container-fluid" style="width: 70%;">
@@ -15,8 +14,8 @@
       <p style="font-size: 80%;">Here you can read about the APIs and a summary of what they are capable of.</p>
       <hr size="500" noshade>
                                                  
-      <div> 
-      <div *ngFor="let item of APIS" >
+      <div>
+      <div *ngFor="let item of HEROES" >
         <div *ngIf="item.checked"  class="box">
           <h2>{{item.name}}</h2>
           <p>{{item.desc}}</p>
@@ -27,10 +26,10 @@
         <br>
       </div>
     </div>
+
+
       <hr size="500" noshade>
       <br>
   </div>
-  <script>
-    console.log("hi");
-    </script>
 </div>
+
